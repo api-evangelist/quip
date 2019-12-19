@@ -1,0 +1,56 @@
+{
+    "name": "Quip",
+    "description": "<p>Quip changes the way teams work together. Quip combines documents, spreadsheets, checklists, and chat in a simple interface that makes collaboration easy. With Quip, you work with people, not files. Thousands of companies from a wide range of industries have adopted Quip to make communication and collaboration more efficient.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/quip-logo.png",
+    "tags": [
+        "documents",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/quip\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Quip",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/quip-logo.png",
+            "humanURL": "https:\/\/quip.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/quip-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/quip.com\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/quip.com\/blog\/feed"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/quip"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/quip.com\/about\/pricing"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/quip"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/quip.com\/"
+        }
+    ]
+}
