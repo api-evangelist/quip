@@ -41,7 +41,7 @@ apis:
     properties:
       - type: Documentation
         url: https://quip.com/dev/automation/documentation
-      - type: API Reference
+      - type: APIReference
         url: https://quip.com/api/reference
       - type: Authentication
         url: https://quip.com/dev/automation/documentation/current#tag/Auth
@@ -85,7 +85,7 @@ common:
     url: https://quip.com/dev/console/
   - type: Blog
     url: https://quip.com/blog
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/quip
   - type: Parent Company
     url: https://www.salesforce.com/
