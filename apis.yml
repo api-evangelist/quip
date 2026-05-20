@@ -75,6 +75,8 @@ apis:
         url: https://quip.com/dev/scim/documentation
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/salesforce-quip
   - type: Website
     url: https://quip.com
   - type: Developer Portal
