@@ -79,11 +79,11 @@ common:
     url: https://www.linkedin.com/company/salesforce-quip
   - type: Website
     url: https://quip.com
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://quip.com/dev/
   - type: Documentation
     url: https://quip.com/dev/automation/documentation
-  - type: Developer Console
+  - type: Console
     url: https://quip.com/dev/console/
   - type: Blog
     url: https://quip.com/blog
