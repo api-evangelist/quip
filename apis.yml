@@ -75,6 +75,8 @@ apis:
         url: https://quip.com/dev/scim/documentation
 
 common:
+  - type: DomainSecurity
+    url: security/quip-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/salesforce-quip
   - type: Website
