@@ -46,6 +46,13 @@ apis:
       - Automation
       - Documents
       - Threads
+      - Message
+      - Folders
+      - User
+    tags_raw:
+      - Automation
+      - Documents
+      - Threads
       - Messages
       - Folders
       - Users
