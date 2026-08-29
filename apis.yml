@@ -9,6 +9,17 @@ description: >-
   interface for creating and managing threads, documents, messages, folders,
   and users with OAuth 2.0 Bearer token authentication.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
