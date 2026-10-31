@@ -1,4 +1,4 @@
-# Quip (quip)
+# Quip
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,96 +66,86 @@
 
 Quip is a Salesforce-owned collaborative productivity platform that combines documents, spreadsheets, chat, and tasks into a single workspace tightly integrated with the Salesforce CRM. It enables teams to embed live data, collaborate in real time, and automate workflows across deal collaboration, account planning, and sales operations. The Quip Automation API is a REST interface for creating and managing threads, documents, messages, folders, and users with OAuth 2.0 Bearer token authentication.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/quip/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/quip/refs/heads/main/apis.yml)
+**Areas:** Collaboration · Productivity · Documents · Spreadsheets · Team Chat · Salesforce
 
-## Scope
+## Quip on APIs.io
 
-- **Type:** Index
+Everything profiled for Quip is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quip/](https://apis.io/providers/quip/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Collaboration
-- Productivity
-- Documents
-- Spreadsheets
-- Team Chat
-- Salesforce
+- [Quip Automation API](https://apis.io/apis/quip/automation-api/) — REST API for programmatically managing Quip threads, documents, spreadsheets, messages, folders, and users. Supports OAuth 2.0 access tokens passed as a…
+- [Quip Admin API](https://apis.io/apis/quip/admin-api/) — Administrative REST API for managing organization-level Quip resources including company configuration, audit events, and user provisioning.
+- [Quip SCIM API](https://apis.io/apis/quip/scim-api/) — SCIM 2.0 API for automated user provisioning, deprovisioning, and group management from identity providers into Quip.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-11
-- **Modified:** 2026-05-11
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Quip Automation API
+Authentication, trust centre, and vulnerability disclosure.
 
-REST API for programmatically managing Quip threads, documents, spreadsheets, messages, folders, and users. Supports OAuth 2.0 access tokens passed as a Bearer token in the Authorization header.
+- [Quip Domain Security](https://apis.io/security/quip/quip-domain-security/)
 
-- **Human URL:** [https://quip.com/dev/automation/documentation](https://quip.com/dev/automation/documentation)
-- **Base URL:** `https://platform.quip.com/1`
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Automation
-- Documents
-- Threads
-- Messages
-- Folders
-- Users
-
-#### Properties
-
-- [Documentation](https://quip.com/dev/automation/documentation)
-- [API Reference](https://quip.com/api/reference)
-- [Authentication](https://quip.com/dev/automation/documentation/current#tag/Auth)
-
-### Quip Admin API
-
-Administrative REST API for managing organization-level Quip resources including company configuration, audit events, and user provisioning.
-
-- **Human URL:** [https://quip.com/dev/admin/documentation/current](https://quip.com/dev/admin/documentation/current)
-- **Base URL:** `https://platform.quip.com/1`
-
-#### Tags
-
-- Admin
-- Provisioning
-- Audit
-
-#### Properties
-
-- [Documentation](https://quip.com/dev/admin/documentation/current)
-
-### Quip SCIM API
-
-SCIM 2.0 API for automated user provisioning, deprovisioning, and group management from identity providers into Quip.
-
-- **Human URL:** [https://quip.com/dev/scim/documentation](https://quip.com/dev/scim/documentation)
-- **Base URL:** `https://platform.quip.com/1`
-
-#### Tags
-
-- SCIM
-- Identity
-- Provisioning
-
-#### Properties
-
-- [Documentation](https://quip.com/dev/scim/documentation)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/salesforce-quip)
 - [Website](https://quip.com)
-- [Developer  Portal](https://quip.com/dev/)
 - [Documentation](https://quip.com/dev/automation/documentation)
-- [Developer  Console](https://quip.com/dev/console/)
 - [Blog](https://quip.com/blog)
-- [GitHub Organization](https://github.com/quip)
-- [Parent  Company](https://www.salesforce.com/)
+- [GitHub](https://github.com/quip)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 16.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quip/](https://apis.io/providers/quip/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Quip: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quip/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
